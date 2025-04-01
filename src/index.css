@@ -1,0 +1,22 @@
+.just-me-again-down-here-regular {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+* { 
+  font-family: "Just Me Again Down Here", cursive;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  size: 40px;
+}
+
+.app{ 
+  min-height: 100vh;
+  display: flex;
+  background-color: #a1d3d3e2;
+}
