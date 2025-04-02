@@ -1,0 +1,85 @@
+.weather { 
+    padding: 40px;
+    place-self: center;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.search-bar {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.search-bar input { 
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #626262;
+    background-color: #ebfffc;
+    font-size: 18px;
+}
+.search-bar img { 
+    width: 50px;
+    padding: 15px ;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #ebfffc;
+}
+
+.clear-weather { 
+    width: 150px;
+    margin: 30px 0;
+}
+
+.temp { 
+    color: white;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.location { 
+    color: white;
+    font-size: 40px;
+}
+
+.weather-data-row {
+    display: flex;
+    justify-content: space-between; /* Make them sit side by side */
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    gap: 40px; /* Adjust spacing */
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
+    color: white;
+    font-size: 22px;
+
+}
+
+.temp {
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.weather-data-row .col span { 
+    display: block;
+    font-size: 16px;
+}
+
+.weather-data-row .col img { 
+    width: 26px;
+    margin-top: 10px ;
+}
